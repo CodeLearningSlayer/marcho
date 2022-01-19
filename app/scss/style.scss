@@ -167,6 +167,22 @@ footer{
     }
 }
 
+.top{
+    &__container{
+        max-width: 1700px;
+        margin: 0 auto;
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        padding: 120px 0 130px;
+        text-align: center;
+    }
+    &__title{
+        @extend %roboto-400;
+        font-weight: 400;
+    }
+}
+
 .top-slider{
     background-image: url('../images/decor/top-slider-bg.png');
     background-repeat: no-repeat;
@@ -688,6 +704,56 @@ footer{
     }
 }
 
+.modal{
+    padding-top: 100px;
+    max-width: 570px;
+    margin: 0 auto 115px;
+    &__links{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    &__link{
+        font-size: 22px;
+        color:#909090;
+        @extend %roboto-400;
+        text-transform: uppercase;
+        margin: 0 30px;
+    }
+    &__link--active{
+        color:$accent;
+        font-weight: 700;
+    }
+    &__label{
+        margin-bottom: 30px;
+        display: block;
+    }
+    &__input{
+        display: block;
+        width: 100%;
+        border:none;
+        background-color: $bg;
+        height: 60px;
+        margin-top: 4px;
+        padding: 0 15px;
+    }
+    &__btn{
+        display: block;
+        background-color: $title;
+        text-transform: uppercase;
+        @extend %roboto-400;
+        color: #fff;
+        letter-spacing: 2px;
+        padding: 14px 0;
+        border:none;
+        width: 100%;
+        cursor: pointer;
+    }
+    &__error{
+        margin-top: 12px;
+        color:$accent;
+        display: inline-block;
+    }
+}
   
 
 
