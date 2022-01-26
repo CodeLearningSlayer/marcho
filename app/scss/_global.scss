@@ -131,7 +131,7 @@ a{
         padding-left: 15px;
         &::before{
             background-image: url('../images/icons/angle-left.svg');
-            left:0;
+            left:-1px;
         }
     }
     &__next{
