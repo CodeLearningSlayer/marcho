@@ -24,10 +24,9 @@ body{
 
 
 a{
-    color: $default;
+    color: inherit;
     font-size: 16px;
     line-height: 26px;
-    @extend %quicksand-500;
 }
 
 .title{
