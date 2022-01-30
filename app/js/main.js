@@ -135,4 +135,8 @@ $(function(){
       const deadline = $('.promo__clock').attr('data-time');
       initializeClock(deadline);
 
+      let map;
+
+ 
+
 });
